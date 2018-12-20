@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.ziyun.springDemo.annotation.CustomizationAnnotation;
-import com.ziyun.springDemo.config.DbInfoConfig;
-import com.ziyun.springDemo.listener.CustomizationEvent;
-import com.ziyun.springDemo.model.Person;
+import com.ziyun.springboot.annotation.CustomizationAnnotation;
+import com.ziyun.springboot.config.DbInfoConfig;
+import com.ziyun.springboot.listener.CustomizationEvent;
+import com.ziyun.springboot.model.Person;
 
 @Controller
 public class DemoController extends BaseController {

@@ -3,7 +3,7 @@ package com.ziyun.springboot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.ziyun.springDemo.listener.CustomizationEvenListener;
+import com.ziyun.springboot.listener.CustomizationEvenListener;
 
 @SpringBootApplication
 public class SpringDemoApplication {
