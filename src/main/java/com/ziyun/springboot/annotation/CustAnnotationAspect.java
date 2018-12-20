@@ -22,7 +22,7 @@ public class CustAnnotationAspect {
 	@Qualifier("service2")
 	private SpringDemoService demoService;
 	
-	@Pointcut("@annotation(com.ziyun.springDemo.annotation.CustomizationAnnotation)")
+	@Pointcut("@annotation(com.ziyun.springboot.annotation.CustomizationAnnotation)")
 	public void  CustomAnnotationAop(){
 		System.out.println("--------CustAnnotationAspect CustomAnnotationAop-----");
 	}
