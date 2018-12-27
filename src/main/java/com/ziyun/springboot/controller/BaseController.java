@@ -1,4 +1,4 @@
-package com.ziyun.springboot;
+package com.ziyun.springboot.controller;
 
 import java.util.HashMap;
 import java.util.Map;
